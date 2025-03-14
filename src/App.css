@@ -1,7 +1,12 @@
+:root {
+  --main-branding-color: #4f6f52;
+  --main-text-color: #f5efe6;
+}
+
 .App {
   text-align: center;
-  color: #f5efe6;
-  background-color: #4f6f52;
+  color: var(--main-text-color);
+  background-color: var(--main-branding-color);
 }
 
 .App-header {

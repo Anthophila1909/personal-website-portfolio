@@ -1,0 +1,16 @@
+:root {
+  --main-branding-color: #4f6f52;
+  --main-text-color: #f5efe6;
+}
+
+.custom-navbar {
+  background-color: var(--main-branding-color);
+  background-image: url(./imgs/bäumeinspace.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.custom-navbar .nav-link,
+.custom-navbar .navbar-brand {
+  color: var(--main-text-color);
+}
