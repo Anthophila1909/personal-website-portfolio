@@ -1,10 +1,12 @@
 :root {
   --main-branding-color: #4f6f52;
   --main-text-color: #f5efe6;
+  --main-text-font: "Ubuntu", sans-serif;
 }
 
 .App {
   text-align: center;
+  font-family: var(--main-text-font);
   color: var(--main-text-color);
   background-color: var(--main-branding-color);
 }
