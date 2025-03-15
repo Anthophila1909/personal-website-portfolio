@@ -1,0 +1,20 @@
+.custom-navbar {
+  background-color: var(--main-branding-color);
+  background-image: url(/src/imgs/bäumeinspace.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.custom-navbar .nav-link {
+  color: var(--main-text-color);
+}
+
+.custom-navbar .nav-link.active,
+.custom-navbar .nav-link:hover {
+  color: var(--main-branding-color) !important;
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .navbar-brand:hover {
+  color: var(--main-text-color) !important;
+}

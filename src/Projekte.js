@@ -1,4 +1,5 @@
 import React from "react";
+import "./css/Projekte.css";
 
 export default function Projekte() {
   return (

@@ -3,7 +3,7 @@ import img from "./imgs/elena-startseite.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFaceSmileBeam } from "@fortawesome/free-solid-svg-icons";
 import { faWandMagicSparkles } from "@fortawesome/free-solid-svg-icons";
-import "./Startseite.css";
+import "./css/Startseite.css";
 
 export default function Startseite() {
   return (
@@ -57,6 +57,12 @@ export default function Startseite() {
           </ul>
         </div>
       </div>
+      <a href="/ueber-mich" className="btn btn-primary">
+        Über mich
+      </a>
+      <a href="/projekte" className="btn btn-primary">
+        Aktuelle Projekte
+      </a>
     </div>
   );
 }
