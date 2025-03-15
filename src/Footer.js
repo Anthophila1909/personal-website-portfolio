@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <footer className="container footer">
       <div className="row">
-        <div className="col-4">
+        <div className="col-4 text-end">
           <a
             href="https://github.com/Anthophila1909"
             target="_blank"
@@ -18,7 +18,7 @@ export default function Footer() {
           </a>
         </div>
         <div className="col-4">© 2025 Elena Würtz</div>
-        <div className="col-4">
+        <div className="col-4 text-start">
           <a
             href="https://de.linkedin.com/in/elena-w%C3%BCrtz-a47349285"
             target="_blank"
