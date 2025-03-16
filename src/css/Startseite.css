@@ -68,15 +68,18 @@
 }
 
 .Startseite .buttons {
+  margin: 90px 0;
+}
+
+.Startseite .button {
   display: flex;
   justify-content: space-evenly;
-  margin: 90px 0;
 }
 
 .Startseite .ueber-mich,
 .Startseite .projekte {
   font-size: 18px;
-  line-height: 1.7;
+  line-height: 2;
   color: var(--main-text-color);
   border: 2px solid var(--secondary-branding-color);
   background-color: var(--secondary-branding-color);

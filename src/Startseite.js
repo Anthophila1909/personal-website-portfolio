@@ -60,13 +60,16 @@ export default function Startseite() {
           </ul>
         </div>
       </div>
-      <div className="buttons">
-        <a href="/ueber-mich" className="btn ueber-mich">
-          Über mich
-        </a>
-        <a href="/projekte" className="btn projekte">
-          Aktuelle Projekte
-        </a>
+      <div className="row buttons">
+        <div className="col"></div>
+        <div className="col button">
+          <a href="/ueber-mich" className="btn ueber-mich">
+            Über mich
+          </a>
+          <a href="/projekte" className="btn projekte">
+            Aktuelle Projekte
+          </a>
+        </div>
       </div>
     </div>
   );
