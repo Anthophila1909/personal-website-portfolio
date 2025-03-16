@@ -13,6 +13,7 @@ export default function Footer() {
             href="https://github.com/Anthophila1909"
             target="_blank"
             rel="noreferrer"
+            title="GitHub"
           >
             <FontAwesomeIcon icon={faGithub} />
           </a>
@@ -23,6 +24,7 @@ export default function Footer() {
             href="https://de.linkedin.com/in/elena-w%C3%BCrtz-a47349285"
             target="_blank"
             rel="noreferrer"
+            title="LinkedIn"
           >
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
