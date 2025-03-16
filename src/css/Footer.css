@@ -1,5 +1,9 @@
 .footer {
-  background-color: var(--main-branding-color);
+  background-image: url(/src/imgs/space-background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   padding-bottom: 50px;
 }
 

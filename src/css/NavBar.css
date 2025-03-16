@@ -1,8 +1,10 @@
 .custom-navbar {
   background-color: var(--main-branding-color);
-  background-image: url(/src/imgs/bäumeinspace.jpg);
+  background-image: url(/src/imgs/space-background.jpg);
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .custom-navbar .nav-link {
