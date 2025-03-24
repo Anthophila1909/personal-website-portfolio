@@ -2,6 +2,7 @@ import React from "react";
 import img from "./imgs/elena-aboutme.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWandMagicSparkles } from "@fortawesome/free-solid-svg-icons";
+import CV_Elena_Wuertz from "./imgs/CV_Elena Wuertz.pdf";
 import "./css/UeberMich.css";
 
 export default function UeberMich() {
@@ -33,7 +34,13 @@ export default function UeberMich() {
             (leider nur als Zuschauerin, nicht als Teilnehmerin ...).
           </p>
           <div className="lebenslauf">
-            <a href="/" className="btn lebenslauf-button">
+            <a
+              href={CV_Elena_Wuertz}
+              target="_blank"
+              rel="noreferrer"
+              title="Lebenslauf"
+              className="btn lebenslauf-button"
+            >
               Lebenslauf
             </a>
           </div>
