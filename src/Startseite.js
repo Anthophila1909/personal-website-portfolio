@@ -6,7 +6,7 @@ import "./css/Startseite.css";
 
 export default function Startseite() {
   return (
-    <div className="Startseite">
+    <div className="Startseite container">
       <div className="row introduction">
         <div className="col introduction-text">
           <h1>

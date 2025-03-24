@@ -1,7 +1,3 @@
-.Startseite .introduction-text {
-  padding-left: 10em;
-}
-
 .Startseite h1 {
   font-size: 40px;
   line-height: 1.5;
@@ -35,13 +31,12 @@
 
 .Startseite .img-startseite {
   display: block;
-  margin: 70px auto;
+  margin: 10px auto;
   width: 400px;
   height: 400px;
   object-fit: cover;
   border-radius: 50%;
   overflow: hidden;
-  border: 1.5px solid var(--secondary-branding-color);
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
@@ -52,7 +47,7 @@
 }
 
 .Startseite .buttons {
-  margin-bottom: 80px;
+  margin-top: 18px;
 }
 
 .Startseite .ueber-mich,
@@ -74,5 +69,5 @@
 }
 
 .Startseite .ueber-mich {
-  margin: 0 90px 0 80px;
+  margin: 0 100px 0 24px;
 }
