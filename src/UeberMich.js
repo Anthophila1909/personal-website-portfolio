@@ -6,8 +6,16 @@ import "./css/UeberMich.css";
 
 export default function UeberMich() {
   return (
-    <div className="UeberMich">
-      <h1>Über mich</h1>
+    <div className="UeberMich container">
+      <h1>- Über mich -</h1>
+      <p className="intro-text">
+        Code ist für mich mehr als nur Technik - es ist mein Werkzeug, um Ideen
+        zum Leben zu erwecken. <br />
+        Als Junior Frontend Developerin bringe ich frischen Wind, viel
+        Motivation und einen vielseitigen Background mit und bin bereit, die
+        digitale Welt ein kleines bisschen schöner und smarter zu machen.{" "}
+        <FontAwesomeIcon icon={faWandMagicSparkles} />
+      </p>
       <div className="row mt-5 mb-5">
         <div className="col">
           <p>
@@ -17,23 +25,12 @@ export default function UeberMich() {
             leite, Datenprozesse optimiere und mit verschiedenen Teams
             zusammenarbeite. Parallel habe ich meine Leidenschaft fürs
             Programmieren entdeckt und eine Weiterbildung zur Frontend
-            Developerin gemacht (JavaScript, React.js, Python, Git & Co.). Was
-            mich ausmacht? Ich liebe es, Neues zu lernen, zwischen Teams zu
-            vermitteln und Lösungen zu finden, die wirklich funktionieren -
-            technisch wie menschlich. 🚀
+            Developerin gemacht (JavaScript, React.js, Python, Git & Co.).
           </p>
           <p>
             <strong>Fun Fact:</strong> Im August diesen Jahres bin ich in der
             "Cathedral of Counter-Strike" in Köln für die EPT Championship 2025
             (leider nur als Zuschauerin, nicht als Teilnehmerin ...).
-          </p>
-          <p className="intro-text-ende">
-            Code ist für mich mehr als nur Technik - es ist mein Werkzeug, um
-            Ideen zum Leben zu erwecken. <br />
-            Als Junior Frontend Developerin bringe ich frischen Wind, viel
-            Motivation und einen vielseitigen Background mit und bin bereit, die
-            digitale Welt ein kleines bisschen schöner und smarter zu machen.{" "}
-            <FontAwesomeIcon icon={faWandMagicSparkles} />
           </p>
           <div className="lebenslauf">
             <a href="/" className="btn btn-primary">
@@ -45,7 +42,7 @@ export default function UeberMich() {
           <img
             src={img}
             alt="Elena Würtz - Junior Front End Developer"
-            className="img-startseite"
+            className="img-uebermich"
           />
         </div>
       </div>

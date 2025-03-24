@@ -42,17 +42,14 @@ export default function Startseite() {
             alt="Elena Würtz - Junior Front End Developer"
             className="img-startseite"
           />
-        </div>
-      </div>
-      <div className="row">
-        <div className="col"></div>
-        <div className="col buttons">
-          <a href="/ueber-mich" className="btn ueber-mich">
-            Über mich
-          </a>
-          <a href="/projekte" className="btn projekte">
-            Meine Projekte
-          </a>
+          <div className="col buttons">
+            <a href="/ueber-mich" className="btn ueber-mich">
+              Über mich
+            </a>
+            <a href="/projekte" className="btn projekte">
+              Meine Projekte
+            </a>
+          </div>
         </div>
       </div>
     </div>

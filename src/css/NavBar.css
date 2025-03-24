@@ -1,10 +1,10 @@
 .custom-navbar {
   background-color: var(--main-branding-color);
-  background-image: url(/src/imgs/svg-hintergrund-papier.jpg);
+  background-image: url(/src/imgs/svg-hintergrund-blumen.jpg);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.7;
-  border-bottom: 3px dotted var(--main-branding-color);
+  border-bottom: 2px solid var(--main-text-color);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
