@@ -8,7 +8,7 @@ export default function UeberMich() {
   return (
     <div className="UeberMich container">
       <h1>- Über mich -</h1>
-      <p className="intro-text">
+      <p className="intro-text mt-5">
         Code ist für mich mehr als nur Technik - es ist mein Werkzeug, um Ideen
         zum Leben zu erwecken. <br />
         Als Junior Frontend Developerin bringe ich frischen Wind, viel
@@ -33,7 +33,7 @@ export default function UeberMich() {
             (leider nur als Zuschauerin, nicht als Teilnehmerin ...).
           </p>
           <div className="lebenslauf">
-            <a href="/" className="btn btn-primary">
+            <a href="/" className="btn lebenslauf-button">
               Lebenslauf
             </a>
           </div>
@@ -46,39 +46,40 @@ export default function UeberMich() {
           />
         </div>
       </div>
-      <div className="row mt-5">
-        <div className="col"></div>
-        <div className="col">
-          <h2>Kontakt:</h2>
-          <ul>
-            <li>
-              <strong>Email:</strong>{" "}
-              <a href="mailto:wuertzet@gmail.de">wuertzet@gmail.de</a>
-            </li>
-            <li>
-              <strong>
-                <a
-                  href="https://de.linkedin.com/in/elena-w%C3%BCrtz-a47349285"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  LinkedIn
-                </a>
-              </strong>
-            </li>
-            <li>
-              <strong>
-                <a
-                  href="https://github.com/Anthophila1909"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  GitHub
-                </a>
-              </strong>
-            </li>
-          </ul>
-        </div>
+      <div className="kontakt">
+        <h2>Kontakt:</h2>
+        <ul>
+          <li>
+            <strong>Email:</strong>{" "}
+            <a href="mailto:wuertzet@gmail.de" title="E-Mail senden">
+              wuertzet@gmail.de
+            </a>
+          </li>
+          <li>
+            <strong>
+              <a
+                href="https://de.linkedin.com/in/elena-w%C3%BCrtz-a47349285"
+                target="_blank"
+                rel="noreferrer"
+                title="LinkedIn-Profil"
+              >
+                LinkedIn
+              </a>
+            </strong>
+          </li>
+          <li>
+            <strong>
+              <a
+                href="https://github.com/Anthophila1909"
+                target="_blank"
+                rel="noreferrer"
+                title="GitHub-Profil"
+              >
+                GitHub
+              </a>
+            </strong>
+          </li>
+        </ul>
       </div>
     </div>
   );
