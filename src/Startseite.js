@@ -51,7 +51,7 @@ export default function Startseite() {
             Über mich
           </a>
           <a href="/projekte" className="btn projekte">
-            Aktuelle Projekte
+            Meine Projekte
           </a>
         </div>
       </div>
