@@ -1,5 +1,7 @@
 import React from "react";
 import img from "./imgs/elena-aboutme.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faWandMagicSparkles } from "@fortawesome/free-solid-svg-icons";
 import "./css/UeberMich.css";
 
 export default function UeberMich() {
@@ -24,6 +26,14 @@ export default function UeberMich() {
             <strong>Fun Fact:</strong> Im August diesen Jahres bin ich in der
             "Cathedral of Counter-Strike" in Köln für die EPT Championship 2025
             (leider nur als Zuschauerin, nicht als Teilnehmerin ...).
+          </p>
+          <p className="intro-text-ende">
+            Code ist für mich mehr als nur Technik - es ist mein Werkzeug, um
+            Ideen zum Leben zu erwecken. <br />
+            Als Junior Frontend Developerin bringe ich frischen Wind, viel
+            Motivation und einen vielseitigen Background mit und bin bereit, die
+            digitale Welt ein kleines bisschen schöner und smarter zu machen.{" "}
+            <FontAwesomeIcon icon={faWandMagicSparkles} />
           </p>
           <div className="lebenslauf">
             <a href="/" className="btn btn-primary">
