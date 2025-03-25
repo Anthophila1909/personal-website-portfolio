@@ -1,0 +1,30 @@
+.ProjectCarousel a {
+  text-decoration: none;
+  color: var(--main-text-color);
+}
+
+.ProjectCarousel h3 {
+  font-size: 30px;
+
+  background-color: var(--main-branding-color);
+  border-radius: 8px;
+  margin: 0 460px 30px;
+  padding: 9px 0;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.ProjectCarousel p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--main-branding-color);
+  background-color: var(--main-text-color);
+  padding: 5px;
+  border-radius: 8px;
+  margin: 0 290px;
+}
+
+.ProjectCarousel img {
+  max-height: 48em;
+}
