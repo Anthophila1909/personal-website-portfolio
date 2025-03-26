@@ -1,3 +1,7 @@
+.ProjectCarousel {
+  margin-bottom: 80px;
+}
+
 .ProjectCarousel .projekt-btn {
   text-decoration: none;
   font-size: 25px;
@@ -24,6 +28,24 @@
   margin: 0 200px;
 }
 
-.ProjectCarousel img {
-  max-height: 48em;
+@media (max-width: 992px) {
+  .ProjectCarousel .carousel-item {
+    min-height: 50vh;
+  }
+
+  .ProjectCarousel .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+
+  .ProjectCarousel .projekt-btn {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+
+  .ProjectCarousel p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0 auto;
+  }
 }

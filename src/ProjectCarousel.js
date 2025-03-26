@@ -15,11 +15,7 @@ export default function ProjectCarousel() {
     <div className="ProjectCarousel">
       <Carousel>
         <Carousel.Item interval={7000}>
-          <img
-            src={AI_Fantasy_Figure_Generator}
-            className="w-50"
-            alt="First slide"
-          />
+          <img src={AI_Fantasy_Figure_Generator} alt="First slide" />
           <Carousel.Caption>
             <div className="projekt-titel">
               <a
@@ -40,7 +36,7 @@ export default function ProjectCarousel() {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={7000}>
-          <img src={React_Weather_App} className="w-50" alt="Second slide" />
+          <img src={React_Weather_App} alt="Second slide" />
           <Carousel.Caption>
             <div className="projekt-titel">
               <a
@@ -60,7 +56,7 @@ export default function ProjectCarousel() {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={7000}>
-          <img src={World_Clock} className="w-50" alt="Third slide" />
+          <img src={World_Clock} alt="Third slide" />
           <Carousel.Caption>
             <div className="projekt-titel">
               <a
@@ -80,7 +76,7 @@ export default function ProjectCarousel() {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={7000}>
-          <img src={Dictionary_App} className="w-50" alt="Fourth slide" />
+          <img src={Dictionary_App} alt="Fourth slide" />
           <Carousel.Caption>
             <div className="projekt-titel">
               <a
@@ -100,7 +96,7 @@ export default function ProjectCarousel() {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={7000}>
-          <img src={Embroidery_Project} className="w-50" alt="Fifth slide" />
+          <img src={Embroidery_Project} alt="Fifth slide" />
           <Carousel.Caption>
             <div className="projekt-titel">
               <a
@@ -120,11 +116,7 @@ export default function ProjectCarousel() {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={7000}>
-          <img
-            src={Python_AI_Travel_Planner}
-            className="w-50"
-            alt="Sixth slide"
-          />
+          <img src={Python_AI_Travel_Planner} alt="Sixth slide" />
           <Carousel.Caption>
             <div className="projekt-titel">
               <a
