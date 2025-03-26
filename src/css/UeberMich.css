@@ -68,3 +68,34 @@
   color: var(--main-text-color);
   text-decoration: none;
 }
+
+@media (max-width: 992px) {
+  .UeberMich h1 {
+    font-size: 34px;
+    border-radius: 4px;
+    margin: 0 80px;
+    padding: 9px 0;
+  }
+
+  .UeberMich p,
+  .UeberMich li {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.6;
+  }
+
+  .UeberMich .img-uebermich {
+    width: 250px;
+    height: 250px;
+    margin: 40px auto;
+    margin-bottom: 0px;
+  }
+
+  .UeberMich .img-uebermich:hover {
+    transform: none;
+  }
+
+  .UeberMich .kontakt {
+    margin-bottom: 10px;
+  }
+}
