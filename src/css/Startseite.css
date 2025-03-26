@@ -58,6 +58,8 @@
   font-size: 20px;
   font-weight: 400;
   line-height: 2;
+  display: inline-block;
+  margin: 0 40px 0 55px;
   color: var(--main-text-color);
   border: 2px solid var(--main-branding-color);
   background-color: var(--main-branding-color);
@@ -72,6 +74,54 @@
   border-color: var(--main-text-color);
 }
 
-.Startseite .ueber-mich {
-  margin: 0 100px 0 24px;
+@media (max-width: 992px) {
+  .Startseite h1 {
+    font-size: 34px;
+    line-height: 1.5;
+  }
+
+  .Startseite .berufsbezeichnung {
+    font-size: 34px;
+    padding: 3px;
+    border-radius: 4px;
+    margin: 20px 13px 20px;
+  }
+
+  .Startseite p,
+  .Startseite li {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+
+  .Startseite .inhaltsverzeichnis {
+    line-height: 1.5;
+    margin: 40px 13px 20px;
+    border-radius: 4px;
+    padding: 3px;
+  }
+
+  .Startseite .img-startseite {
+    width: 250px;
+    height: 250px;
+    margin: 20px auto;
+  }
+
+  .Startseite .img-startseite:hover {
+    transform: none;
+  }
+
+  .Startseite .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .Startseite .ueber-mich,
+  .Startseite .projekte {
+    width: 60%;
+    text-align: center;
+    margin: 0;
+  }
 }

@@ -7,7 +7,7 @@ import "./css/NavBar.css";
 
 export default function NavBar() {
   return (
-    <Navbar expand="lg" className="custom-navbar">
+    <Navbar expand="lg" className="custom-navbar" sticky="top">
       <Container>
         <Navbar.Brand as={NavLink} to="/">
           Elena Würtz
