@@ -44,10 +44,18 @@ export default function Startseite() {
             className="img-startseite"
           />
           <div className="col buttons">
-            <Link to="/UeberMich" className="btn ueber-mich">
+            <Link
+              to="/UeberMich"
+              className="btn ueber-mich"
+              onClick={() => window.scrollTo(0, 0)}
+            >
               Über mich
             </Link>
-            <Link to="/Projekte" className="btn projekte">
+            <Link
+              to="/Projekte"
+              className="btn projekte"
+              onClick={() => window.scrollTo(0, 0)}
+            >
               Meine Projekte
             </Link>
           </div>
