@@ -14,8 +14,8 @@ export default function App() {
         <header className="App-header">
           <Routes>
             <Route path="/" element={<Startseite />} />
-            <Route path="/ueber-mich" element={<UeberMich />} />
-            <Route path="/projekte" element={<Projekte />} />
+            <Route path="/UeberMich" element={<UeberMich />} />
+            <Route path="/Projekte" element={<Projekte />} />
           </Routes>
         </header>
         <Footer />

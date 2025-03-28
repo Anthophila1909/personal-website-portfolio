@@ -1,5 +1,6 @@
 import React from "react";
 import img from "./imgs/elena-startseite.jpg";
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFaceSmileBeam } from "@fortawesome/free-solid-svg-icons";
 import "./css/Startseite.css";
@@ -43,12 +44,12 @@ export default function Startseite() {
             className="img-startseite"
           />
           <div className="col buttons">
-            <a href="/ueber-mich" className="btn ueber-mich">
+            <Link to="/UeberMich" className="btn ueber-mich">
               Über mich
-            </a>
-            <a href="/projekte" className="btn projekte">
+            </Link>
+            <Link to="/Projekte" className="btn projekte">
               Meine Projekte
-            </a>
+            </Link>
           </div>
         </div>
       </div>
