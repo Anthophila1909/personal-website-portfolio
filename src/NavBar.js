@@ -18,10 +18,10 @@ export default function NavBar() {
             <Nav.Link as={NavLink} to="/" end>
               Home
             </Nav.Link>
-            <Nav.Link as={NavLink} to="/ueber-mich">
+            <Nav.Link as={NavLink} to="/UeberMich">
               Über mich
             </Nav.Link>
-            <Nav.Link as={NavLink} to="/projekte">
+            <Nav.Link as={NavLink} to="/Projekte">
               Projekte
             </Nav.Link>
           </Nav>
