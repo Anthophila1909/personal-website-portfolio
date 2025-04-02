@@ -3,7 +3,10 @@
   color: var(--main-text-color);
   background-color: var(--main-branding-color);
   border-radius: 8px;
-  margin: 0 420px;
+  max-width: 30%;
+  margin: 0 auto 30px;
+  display: block;
+  justify-content: center;
   padding: 9px 0;
 }
 
@@ -73,7 +76,8 @@
   .UeberMich h1 {
     font-size: 34px;
     border-radius: 4px;
-    margin: 0 80px;
+    max-width: 50%;
+    margin: 0 auto 15px;
     padding: 9px 0;
   }
 
