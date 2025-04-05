@@ -11,8 +11,8 @@ export default function UeberMich() {
       <div className="header">
         <h1>Über mich</h1>
         <div className="row">
-          <div className="col"></div>
-          <div className="col">
+          <div className="col-sm"></div>
+          <div className="col-sm">
             <p className="intro-text text-start">
               Code ist für mich mehr als nur Technik - es ist mein Werkzeug, um
               Ideen zum Leben zu erwecken. <br />
@@ -63,40 +63,43 @@ export default function UeberMich() {
             />
           </div>
         </div>
-        <div className="kontakt">
-          <h2>Kontakt:</h2>
-          <ul>
-            <li>
-              <strong>Email:</strong>{" "}
-              <a href="mailto:wuertzet@gmail.de" title="E-Mail senden">
-                wuertzet@gmail.de
-              </a>
-            </li>
-            <li>
-              <strong>
-                <a
-                  href="https://de.linkedin.com/in/elena-w%C3%BCrtz-a47349285"
-                  target="_blank"
-                  rel="noreferrer"
-                  title="LinkedIn-Profil"
-                >
-                  LinkedIn
+        <div className="row kontakt">
+          <div className="col-sm"></div>
+          <div className="col-sm kontaktarten text-sm-end text-center">
+            <h2>Kontakt</h2>
+            <ul>
+              <li>
+                <strong>Email:</strong>{" "}
+                <a href="mailto:wuertzet@gmail.de" title="E-Mail senden">
+                  wuertzet@gmail.de
                 </a>
-              </strong>
-            </li>
-            <li>
-              <strong>
-                <a
-                  href="https://github.com/Anthophila1909"
-                  target="_blank"
-                  rel="noreferrer"
-                  title="GitHub-Profil"
-                >
-                  GitHub
-                </a>
-              </strong>
-            </li>
-          </ul>
+              </li>
+              <li>
+                <strong>
+                  <a
+                    href="https://de.linkedin.com/in/elena-w%C3%BCrtz-a47349285"
+                    target="_blank"
+                    rel="noreferrer"
+                    title="LinkedIn-Profil"
+                  >
+                    LinkedIn
+                  </a>
+                </strong>
+              </li>
+              <li>
+                <strong>
+                  <a
+                    href="https://github.com/Anthophila1909"
+                    target="_blank"
+                    rel="noreferrer"
+                    title="GitHub-Profil"
+                  >
+                    GitHub
+                  </a>
+                </strong>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>

@@ -1,11 +1,7 @@
 .UeberMich .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   text-align: center;
   min-height: 800px;
-  margin-top: 140px;
+  margin-top: 150px;
 }
 
 .UeberMich h1 {
@@ -56,10 +52,13 @@
   border-color: var(--main-branding-color);
 }
 
-.UeberMich .kontakt {
-  margin-bottom: 160px;
+.UeberMich .kontaktarten {
+  padding-right: 125px;
 }
 
+.UeberMich h2 {
+  color: var(--main-branding-color);
+}
 .UeberMich ul {
   list-style-type: none;
   padding: 0;
@@ -71,33 +70,59 @@
 }
 
 @media (max-width: 992px) {
+  .UeberMich .header {
+    min-height: 450px;
+    padding-top: 44px;
+  }
+
   .UeberMich h1 {
-    font-size: 34px;
-    border-radius: 4px;
-    max-width: 50%;
-    margin: 0 auto 15px;
-    padding: 9px 0;
+    font-size: 30px;
+  }
+
+  .UeberMich .container {
+    min-height: 500px;
+    padding-top: 0;
+    margin-top: 50px;
   }
 
   .UeberMich p,
   .UeberMich li {
-    font-size: 19px;
-    font-weight: 400;
-    line-height: 1.6;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .UeberMich .intro-text {
+    padding-left: 12px;
+  }
+
+  .UeberMich .funfact {
+    margin-top: 30px;
+  }
+
+  .UeberMich .lebenslauf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .UeberMich .lebenslauf-button {
+    width: 60%;
+    text-align: center;
+    margin: 0;
   }
 
   .UeberMich .img-uebermich {
     width: 250px;
     height: 250px;
-    margin: 40px auto;
-    margin-bottom: 0px;
-  }
-
-  .UeberMich .img-uebermich:hover {
-    transform: none;
+    margin: 50px auto;
   }
 
   .UeberMich .kontakt {
     margin-bottom: 10px;
+  }
+
+  .UeberMich .kontaktarten {
+    margin: 0;
+    padding: 0 0 0 12px;
   }
 }
