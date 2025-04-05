@@ -10,26 +10,28 @@ import "./css/ProjectCarousel.css";
 export default function ProjectCarousel() {
   return (
     <div className="ProjectCarousel">
-      <Carousel>
-        <Carousel.Item interval={7000}>
-          <AIFantasyFigureGenerator />
-        </Carousel.Item>
-        <Carousel.Item interval={7000}>
-          <ReactWeatherApp />
-        </Carousel.Item>
-        <Carousel.Item interval={7000}>
-          <WorldClock />
-        </Carousel.Item>
-        <Carousel.Item interval={7000}>
-          <DictionaryApp />
-        </Carousel.Item>
-        <Carousel.Item interval={7000}>
-          <EmbroideryProject />
-        </Carousel.Item>
-        <Carousel.Item interval={7000}>
-          <PythonAITravelPlanner />
-        </Carousel.Item>
-      </Carousel>
+      <div className="container">
+        <Carousel data-bs-theme="dark">
+          <Carousel.Item interval={7000}>
+            <AIFantasyFigureGenerator />
+          </Carousel.Item>
+          <Carousel.Item interval={7000}>
+            <ReactWeatherApp />
+          </Carousel.Item>
+          <Carousel.Item interval={7000}>
+            <WorldClock />
+          </Carousel.Item>
+          <Carousel.Item interval={7000}>
+            <DictionaryApp />
+          </Carousel.Item>
+          <Carousel.Item interval={7000}>
+            <EmbroideryProject />
+          </Carousel.Item>
+          <Carousel.Item interval={7000}>
+            <PythonAITravelPlanner />
+          </Carousel.Item>
+        </Carousel>
+      </div>
     </div>
   );
 }
