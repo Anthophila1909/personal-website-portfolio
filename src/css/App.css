@@ -1,18 +1,15 @@
 :root {
-  --main-branding-color: #b5828c;
-  --main-text-color: #e8ecd7;
-  --main-text-font: "Ubuntu", sans-serif;
+  --main-branding-color: #6b8f71;
+  --secondary-branding-color: #f8fafc;
+  --main-text-color: #3c4048;
+  --main-text-font: "Poppins", sans-serif;
 }
 
 .App {
   text-align: center;
   font-family: var(--main-text-font);
   color: var(--main-text-color);
-  background-image: url(/src/imgs/svg-hintergrund-blumen.jpg);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+  background-color: var(--secondary-branding-color);
 }
 
 .App-header {

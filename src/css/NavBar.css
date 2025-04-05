@@ -1,15 +1,9 @@
 .custom-navbar {
   background-color: var(--main-branding-color);
-  background-image: url(/src/imgs/svg-hintergrund-blumen.jpg);
+  background-image: url(/src/imgs/absurdity-bg.png);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.7;
-  border-bottom: 2px solid var(--main-text-color);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  margin-bottom: 120px;
 }
 
 .custom-navbar .nav-link {
@@ -39,10 +33,4 @@
   background-repeat: no-repeat;
   width: 30px;
   height: 30px;
-}
-
-@media (max-width: 992px) {
-  .custom-navbar {
-    margin-bottom: 50px;
-  }
 }
