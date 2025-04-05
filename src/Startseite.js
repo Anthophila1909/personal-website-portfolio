@@ -26,9 +26,9 @@ export default function Startseite() {
         </div>
       </div>
       <div className="container">
-        <div className="row introduction">
-          <div className="col-sm introduction-text text-start">
-            <p className="intro-text-anfang ">
+        <div className="row">
+          <div className="col-sm text-start">
+            <p>
               Mein Weg in die Tech-Welt begann mit der Neugier, digitale
               Produkte nicht nur zu nutzen, sondern selbst zu gestalten. <br />{" "}
               Inzwischen schreibe ich mit Begeisterung Code, besonders in{" "}

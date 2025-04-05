@@ -1,61 +1,59 @@
-.UeberMich h1 {
-  font-size: 40px;
-  color: var(--main-text-color);
-  background-color: var(--main-branding-color);
-  border-radius: 8px;
-  max-width: 30%;
-  margin: 0 auto 30px;
-  display: block;
+.UeberMich .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  padding: 9px 0;
+  text-align: center;
+  min-height: 800px;
+  margin-top: 140px;
+}
+
+.UeberMich h1 {
+  font-size: 37px;
+  line-height: 1.5;
+  color: var(--main-branding-color);
+  justify-content: center;
 }
 
 .UeberMich .intro-text {
-  border: 2px dotted var(--main-text-color);
-  border-radius: 8px;
-  padding: 15px;
+  margin-top: 25px;
 }
 
 .UeberMich p,
 .UeberMich li {
   font-size: 20px;
-  font-weight: 400;
   line-height: 1.7;
 }
 
+.UeberMich .funfact {
+  margin-top: 60px;
+}
 .UeberMich .img-uebermich {
   display: block;
   margin: 10px auto;
   width: 400px;
   height: 400px;
   object-fit: cover;
-  border-radius: 50%;
-  overflow: hidden;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
-    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border-radius: 4px;
 }
 
-.UeberMich .img-uebermich:hover {
-  transform: scale(1.05);
-  transition: transform 0.5s;
+.UeberMich .lebenslauf {
+  margin-top: 60px;
 }
 
 .UeberMich .lebenslauf-button {
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 2;
-  margin-top: 15px;
-  color: var(--main-text-color);
+  font-size: 19px;
+  line-height: 1.5;
+  color: var(--secondary-branding-color);
   border: 2px solid var(--main-branding-color);
   background-color: var(--main-branding-color);
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   transition: all 0.2s ease-in-out;
 }
 
 .UeberMich .lebenslauf-button:hover {
   color: var(--main-branding-color);
-  background-color: var(--main-text-color);
-  border-color: var(--main-text-color);
+  background-color: var(--secondary-branding-color);
+  border-color: var(--main-branding-color);
 }
 
 .UeberMich .kontakt {
