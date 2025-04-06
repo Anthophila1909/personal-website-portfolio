@@ -54,9 +54,6 @@
   }
 
   .carousel-item p {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
     font-size: 14px;
     line-height: 1.5;
     padding: 0;
