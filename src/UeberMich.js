@@ -71,7 +71,7 @@ export default function UeberMich() {
               <li>
                 <strong>Email:</strong>{" "}
                 <a href="mailto:wuertzet@gmail.de" title="E-Mail senden">
-                  wuertzet@gmail.de
+                  wuertzet@gmail.com
                 </a>
               </li>
               <li>
